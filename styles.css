@@ -217,7 +217,9 @@ body.dark-theme {
   font-family: var(--title-font);
   font-weight: var(--font-medium);
 }
-
+.nav-logo img {
+  max-width: 50px;
+}
 .nav-toggle {
   display: flex;
   font-size: 1.25rem;
@@ -270,6 +272,10 @@ body.dark-theme {
   bottom: 0.7rem;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.nav-logo img {
+  max-width: 32px;
 }
 
 .show-menu {
